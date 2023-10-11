@@ -1,0 +1,94 @@
+*{
+    color: #fff;
+    background: url('https://tse1.mm.bing.net/th?id=OIP.w_7fHulCRUkC50QDEDnp2gHaEX&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading span{
+    font-style: italic;
+    font-family: monotype cursiva;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, .90);
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.container{
+    position: relative;
+    width: 35%;
+    border-radius: 10%;
+    margin: auto;
+    text-align: center;
+}
+.row input{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+input{
+    padding: 15px 10px;
+    width: 85%;
+    border-radius: 10px;
+    color: #222;
+    background: rgb(239, 235, 235);
+    font-size: 2rem;
+    box-shadow: 0px 14px 28px 0px rgba(255,255,255,0.25),
+    0px 10px 10px 0px rgba(255,255,255,0.22);
+}
+.row{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+button{
+    padding: 30px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    background: rgb(239, 235, 235);
+   width: 100px;
+   height: 100px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin: 8px;
+  
+   /* box-shadow: 0px 3px 6px 0px rgba(255,255,255,0.16),
+    0px 3px 6px 0px rgba(255,255,255,0.23);*/
+    box-shadow: 0px 14px 28px 0px rgba(255,255,255,0.25),
+    0px 10px 10px 0px rgba(255,255,255,0.22);
+}
+.stopoperator{
+    padding: 15px;
+    font-size: 2rem;
+}
+.stopoperator:hover{
+    color: rgb(247, 79, 79);
+    background-color: #222;
+}
+.first{
+    background: #c8c4a7;
+    color: #000;
+}
+.operatorr:hover{
+    color: #fff;
+    background-color: #222;
+}
+.operator{
+    color: white;
+    background: #f4ac1d;
+}
+.operator:hover{
+    background: white;
+    color: #f4ac1d;
+}
+.operand{
+    background: #3c3424;
+    color: #fff;
+}
+.operand:hover{
+    color: #3c3424;
+    background: #fff;
+}
